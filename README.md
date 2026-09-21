@@ -10,7 +10,6 @@ The analysis was conducted using MySQL and phpMyAdmin through XAMPP. The project
 - phpMyAdmin
 - XAMPP
 - SQL
-- GitHub
 
 ## Dataset
 
