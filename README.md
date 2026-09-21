@@ -76,7 +76,7 @@ SakumayaSQL-analysis/
 ├── README.md
 └── sakumaya_db.sql
 
-## Project Purpose
+## Repository Purpose
 
 This project was created to practice SQL data analysis using a banking dataset. The analysis applies SQL concepts such as SELECT, WHERE, GROUP BY, ORDER BY, JOIN, aggregate functions, subqueries, and data aggregation.
 
