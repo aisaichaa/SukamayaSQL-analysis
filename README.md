@@ -69,13 +69,6 @@ The analysis produced the following results:
 - Total transaction value: Rp949,710,662
 - Credit card utilization: 41.93%
 
-## Repository Contents
-
-```text
-SakumayaSQL-analysis/
-├── README.md
-└── sakumaya_db.sql
-
 ## Repository Purpose
 
 This project was created to practice SQL data analysis using a banking dataset. The analysis applies SQL concepts such as SELECT, WHERE, GROUP BY, ORDER BY, JOIN, aggregate functions, subqueries, and data aggregation.
