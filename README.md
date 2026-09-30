@@ -20,13 +20,14 @@ The project focuses on analyzing banking data to identify patterns and insights 
 - Customer transaction activity
 - Customer 360 analysis
 
+The final analysis is presented through an interactive Google Looker Studio dashboard.
+
 ## Tools & Technologies
 
-- **MySQL**
-- **SQL**
-- **phpMyAdmin**
-- **XAMPP**
-- **Google Looker Studio**
+- **MySQL** — Database management and SQL analysis
+- **SQL** — Data querying and analysis
+- **phpMyAdmin** — Database administration
+- **Google Looker Studio** — Dashboard and data visualization
 
 ## Dataset
 
@@ -60,23 +61,33 @@ The analysis covers:
 
 ## Dashboard
 
-The analysis results are presented through an interactive **Google Looker Studio dashboard**.
+The SQL analysis results are presented through an interactive **Google Looker Studio dashboard** designed to provide an executive overview of the Sakumaya banking ecosystem.
+
+### Dashboard Features
+
+- Executive banking overview
+- Total balance
+- Customer count
+- Active account overview
+- Total transactions
+- Monthly transaction performance
+- Transaction type distribution
+- Customer distribution by province
+- Account portfolio health
+- Average balance per account
+- Account status analysis
+- Interactive filters by period, province, and status
+
+### Dashboard Visualizations
 
 The dashboard includes:
 
-- Customer overview
-- Account analysis
-- Account balance analysis
-- Card analysis
-- Credit card utilization
-- Loan analysis
-- Loan outstanding analysis
-- Transaction analysis
-- Transaction analysis by province
-- Transaction analysis by account type
-- Interactive filters
-- KPI cards
-- Charts and tables
+- KPI Cards
+- Monthly Transaction Trend
+- Transaction Type Distribution
+- Customer Distribution by Province
+- Account Portfolio Analysis
+- Interactive Filters
 
 ## Key KPIs
 
