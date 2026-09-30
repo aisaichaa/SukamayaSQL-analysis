@@ -1,42 +1,46 @@
-# Sakumaya SQL Analysis
+# Sakumaya SQL Analysis & Dashboard
 
-This project is a SQL data analysis project using the Sakumaya banking dataset.
+A SQL data analysis and interactive dashboard project using the Sakumaya banking dataset.
 
-The analysis was conducted using MySQL and phpMyAdmin through XAMPP. The project focuses on analyzing customer information, accounts, cards, loans, and transactions.
+This project analyzes banking data related to customers, accounts, cards, loans, and transactions using **MySQL and SQL**. The analysis results are visualized through an interactive dashboard built with **Google Looker Studio**.
 
-## Tools
+## Project Overview
 
-- MySQL
-- phpMyAdmin
-- XAMPP
-- SQL
+The project focuses on analyzing banking data to identify patterns and insights related to:
+
+- Customer demographics
+- Customer distribution by province
+- Account types and balances
+- Card types and status
+- Credit card utilization
+- Loan types and status
+- Loan outstanding amounts
+- Transaction types and channels
+- Transaction status and values
+- Customer transaction activity
+- Customer 360 analysis
+
+## Tools & Technologies
+
+- **MySQL**
+- **SQL**
+- **phpMyAdmin**
+- **XAMPP**
+- **Google Looker Studio**
 
 ## Dataset
 
 The dataset consists of five main tables:
 
-- `customers` - customer information
-- `accounts` - bank account information
-- `cards` - card information
-- `loans` - loan information
-- `transactions` - transaction information
+- `customers` — Customer information
+- `accounts` — Bank account information
+- `cards` — Card information
+- `loans` — Loan information
+- `transactions` — Transaction information
 
-## Database Relationships
+## SQL Analysis
 
-The database consists of the following relationships:
-
-- `customers` → `accounts`
-- `customers` → `cards`
-- `customers` → `loans`
-- `accounts` → `transactions`
-
-The `customer_id` field is used to connect customers with their accounts, cards, and loans.
-
-The `account_id` field is used to connect accounts with transactions.
-
-## Analysis
-
-The SQL analysis covers:
+The analysis covers:
 
 1. Customer demographics
 2. Customer distribution by province
@@ -54,24 +58,70 @@ The SQL analysis covers:
 14. Customer transaction analysis
 15. Customer 360 analysis
 
+## Dashboard
+
+The analysis results are presented through an interactive **Google Looker Studio dashboard**.
+
+The dashboard includes:
+
+- Customer overview
+- Account analysis
+- Account balance analysis
+- Card analysis
+- Credit card utilization
+- Loan analysis
+- Loan outstanding analysis
+- Transaction analysis
+- Transaction analysis by province
+- Transaction analysis by account type
+- Interactive filters
+- KPI cards
+- Charts and tables
+
+## Key KPIs
+
+- Total Customers
+- Total Accounts
+- Total Cards
+- Total Loans
+- Total Transactions
+- Total Account Balance
+- Total Loan Outstanding
+- Total Transaction Value
+- Credit Card Utilization
+
 ## Key Results
 
-The analysis produced the following results:
+| Metric | Result |
+|---|---:|
+| Total Customers | 1,000 |
+| Total Accounts | 458 |
+| Total Cards | 162 |
+| Total Loans | 300 |
+| Total Transactions | 117 |
+| Total Account Balance | Rp34,002,978,069 |
+| Total Loan Outstanding | Rp6,376,366,212 |
+| Total Transaction Value | Rp949,710,662 |
+| Credit Card Utilization | 41.93% |
 
-- Total customers: 1,000
-- Total accounts: 458
-- Total cards: 162
-- Total loans: 300
-- Total transactions: 117
-- Total account balance: Rp34,002,978,069
-- Total loan outstanding: Rp6,376,366,212
-- Total transaction value: Rp949,710,662
-- Credit card utilization: 41.93%
+## SQL Concepts Applied
 
-## Repository Purpose
+- `SELECT`
+- `WHERE`
+- `GROUP BY`
+- `ORDER BY`
+- `JOIN`
+- Aggregate Functions
+- Subqueries
+- Data Filtering
+- Data Aggregation
 
-This project was created to practice SQL data analysis using a banking dataset. The analysis applies SQL concepts such as SELECT, WHERE, GROUP BY, ORDER BY, JOIN, aggregate functions, subqueries, and data aggregation.
+## Skills Demonstrated
+
+**SQL | MySQL | Data Analysis | Database Management | Data Aggregation | Data Visualization | Looker Studio | Dashboard Development | Business Intelligence**
 
 ## Author
 
-Aisha Patricia Sekar Ayu
+**Aisha Patricia Sekar Ayu**
+
+Data Analytics & SQL Project
